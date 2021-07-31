@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Uchen&display=swap');
+
+*{
+    font-family: 'Uchen', serif;
+}
+
+body{
+    background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20190326/pngtree-background-of-american-football-stadium-lighting-effect-image_89986.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.img{
+    width: 300px;
+    height: 250px;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 5px 0px;
+}
+.col{
+    display: flex;
+    flex-direction: column;
+}
+.container{
+    background-color: azure;
+    border-radius: 10px;
+    box-shadow: 0px 3px 10px black;
+}
+.main{
+    margin-top: 150px;
+}
+.name{
+    background-color: #8D3DAF;
+    font-size: larger;
+    font-weight: bold;
+    text-align: center;
+    padding: 5px;
+    margin: 5px 0px;
+}
+
+.round{
+    border-radius: 50%;
+    width:20px;
+    height:20px;
+    border: 1px solid black;
+}
+
+.button{
+    width: 350px;
+    border-radius: 5px;
+    padding: 10px 25px;
+    color:black;
+    border: 3px solid black;
+    margin-top: 100px;
+    font-size: large;
+    cursor: pointer;
+    font-weight: lighter;
+}
+
+.button:hover{
+    background-color: goldenrod;
+}
+
+.final{
+    background: azure;
+    padding: 15px 0px;
+    margin: 50px 350px 0px 350px;
+    font-weight: bold;
+    font-size:xx-large;
+    border-radius: 5px;
+    border: 1px solid black;
+}
